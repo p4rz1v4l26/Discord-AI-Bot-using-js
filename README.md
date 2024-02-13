@@ -1,1 +1,1 @@
-# Disocrd-AI-Bot
+# Discord-AI-Bot
