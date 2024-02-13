@@ -11,7 +11,7 @@ client.on('ready',()=>{
 });
 const openai=new OpenAI({
     apiKey:process.env.OPENAI_KEY,
-})
+});
 const IGNORE_PREFIX = "!";
 const CHANNELS = ['1206594145582448660'];
 const users = new Set();
@@ -80,6 +80,7 @@ client.on('messageCreate', async (message) => {
 
 
 });
+
 
 
 client.login(process.env.TOKEN);
