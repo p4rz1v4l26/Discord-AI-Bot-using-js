@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Discord AI Bot
 
 This is a Discord bot created using JavaScript and Discord.js. The bot is designed to perform various AI-related tasks and enhance the experience within Discord servers.
