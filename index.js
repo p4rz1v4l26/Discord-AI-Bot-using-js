@@ -13,7 +13,7 @@ const openai=new OpenAI({
     apiKey:process.env.OPENAI_KEY,
 });
 const IGNORE_PREFIX = "!";
-const CHANNELS = ['1206594145582448660'];
+const CHANNELS = ['1206594145582448660'];//Replace this id with your channel id
 const users = new Set();
 
 client.on('messageCreate', async (message) => {
