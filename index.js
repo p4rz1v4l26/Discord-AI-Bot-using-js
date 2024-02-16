@@ -41,7 +41,7 @@ client.on('messageCreate', async (message) => {
 
         const username=msg.author.username.replace(/\s+/g, '_').replace(/[^\w\s]/gi, '');
 
-        if(msg.author.id=== client.user.id){ //ofc its my bot only
+        if(msg.author.id=== client.user.id){ 
             conversation.push({
                 role:'assistant',
                 name:username,
